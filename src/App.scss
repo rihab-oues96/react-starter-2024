@@ -1,0 +1,48 @@
+@use "./assets/scss" as *;
+@forward "./components";
+@forward "./layouts";
+@forward "./pages";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+@media screen and (max-width: 1600px) {
+  html {
+    font-size: 58%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  html {
+    font-size: 40%;
+  }
+}
